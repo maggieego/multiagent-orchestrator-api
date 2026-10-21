@@ -26,6 +26,18 @@ Exponer el sistema multi-agente mediante una API REST asíncrona, desacoplando l
 
 ---
 
+##  Diagrama del Grafo con HITL
+
+```mermaid
+graph TD
+    Inicio --> Supervisor
+    Supervisor -->|Decisión: Investigador| Investigador
+    Investigador -->|Retorno con datos| Supervisor
+    Supervisor -->|Decisión: Analista| AprobacionHumana{"¿Aprobación Humana?"}
+    AprobacionHumana -->|Aprobado| Analista
+    Supervisor -->|Decisión: FINISH| Fin
+```
+
 ## 📂 Estructura del Repositorio
 
 ```text
