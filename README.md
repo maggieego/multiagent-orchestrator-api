@@ -49,6 +49,12 @@ multiagent-orchestrator-api/
 ### Trazas y Monitoreo en LangSmith
 ![Trazas LangSmith](screenshots/langsmith-traces.png)
 
+### Trazas de Ejecución del Grafo
+![Trazas de Evolución](screenshots/langsmith-evolution-traces.png)
+
+### Métricas de Costos y Tokens
+![Costos y Tokens](screenshots/langsmith-cost-tokens.png)
+
 ## ⚙️ Pasos a Seguir
 
 ### 1. Configuración Inicial
